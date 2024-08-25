@@ -6,11 +6,11 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.FIREBASe_API,
-  authDomain: "ninja-player-faa7a.firebaseapp.com",
-  projectId: "ninja-player-faa7a",
-  storageBucket: "ninja-player-faa7a.appspot.com",
-  messagingSenderId: "206916035224",
-  appId: "1:206916035224:web:85928b67e751b9301026ed"
+  authDomain: process.env.FIREBASe_AUTHDOMAIN,
+  projectId: process.env.FIREBASe_PROJECTID,
+  storageBucket: process.env.FIREBASe_STORAGEBUCKET,
+  messagingSenderId: process.env.FIREBASe_MESSAGINGSENDERID,
+  appId: process.env.FIREBASe_APPID
 };
 
 // Initialize Firebase
