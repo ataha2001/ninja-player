@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCSAEDxfalLgAEo9xjl7ZgKWkkRiICyBV8",
+  apiKey: process.env.FIREBASe_API,
   authDomain: "ninja-player-faa7a.firebaseapp.com",
   projectId: "ninja-player-faa7a",
   storageBucket: "ninja-player-faa7a.appspot.com",
